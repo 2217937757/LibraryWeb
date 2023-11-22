@@ -1,0 +1,111 @@
+/* books.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+}
+
+a {
+    display: inline-block;
+    margin-top: 20px;
+    text-decoration: none;
+    color: #007BFF;
+    font-weight: bold;
+}
+.container {
+    width: 80%;
+    margin:0px auto;
+}
+
+h2 {
+    text-align: center;
+}
+
+
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    padding: 12px;
+    text-align: center;
+}
+
+th#id, td#id,
+th#type, td#type, th#status, td#status, th#operation, td#operation {
+    text-align: center;
+}
+
+th#title, td#title, th#author, td#author {
+    text-align: center;
+}
+
+.button-container {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+button {
+    padding: 8px 16px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+span {
+    padding: 8px 16px;
+    background-color: #ccc;
+    color: #333;
+    border-radius: 4px;
+    display: inline-block;
+}
+
+.search-container {
+    text-align: center; /* 居中显示 */
+    margin-bottom: 0px; /* 添加底部边距，提高美观性 */
+}
+
+form {
+    display: inline-block; /* 让表单在同一行显示 */
+}
+
+label {
+    margin-right: 10px; /* 调整标签和输入框之间的间距 */
+    font-weight: bold;
+}
+
+input[type="text"] {
+    padding: 8px; /* 设置输入框内边距 */
+}
+
+input[type="submit"] {
+    padding: 8px 16px; /* 设置提交按钮内边距 */
+    background-color: #4CAF50; /* 设置背景颜色 */
+    color: white; /* 设置文字颜色 */
+    border: none; /* 去掉边框 */
+    border-radius: 4px; /* 圆角边框 */
+    cursor: pointer; /* 添加指针样式 */
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049; /* 设置鼠标悬停时的背景颜色 */
+}
+
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

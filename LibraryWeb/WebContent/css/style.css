@@ -1,0 +1,55 @@
+@charset "UTF-8";
+/* 全局样式 */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; /* 垂直方向居中 */
+    height: 100vh; /* 100%视窗高度 */
+}
+
+/* 外层div样式 */
+.container {
+    margin: 0 20px; /* 左右各留20px的空白 */
+}
+
+/* 表单样式 */
+form {
+    max-width: 300px;
+    width: 100%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+input {
+    width: 100%;
+    padding: 0px;
+    margin-bottom: 10px;
+}
+
+input[type="submit"] {
+    background-color: #007BFF;
+    color: #fff;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* h2样式 */
+h2 {
+    margin-bottom: 20px; /* 调整与表单的间距 */
+}
+
+/* 返回首页链接样式 */
+a {
+    display: inline-block;
+    margin-top: 20px; /* 调整与表单的间距 */
+    text-decoration: none;
+    color: #007BFF;
+    font-weight: bold;
+}

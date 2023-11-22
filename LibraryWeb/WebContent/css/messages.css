@@ -1,0 +1,119 @@
+/* messages.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin:30px;
+    padding: 0;
+}
+
+a {
+    display: inline-block;
+    margin-top: 20px;
+    text-decoration: none;
+    color: #007BFF;
+    font-weight: bold;
+}
+
+.container {
+    width: 60%;
+    margin: 20px auto;
+}
+
+h2 {
+    color: #333;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    resize: none;
+}
+
+input[type="submit"] {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+.button-container {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+}
+
+.button-container button {
+    background-color: #4caf50;
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.button-container button:hover {
+    background-color: #45a049;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column; /* 设置为列布局，让子元素垂直排列 */
+}
+
+.username {
+    display: flex;
+    justify-content: space-between;
+    color: #333;
+    font-size: 16px;
+}
+
+.timestamp {
+    color: #555;
+    font-size: 14px;
+    text-align: right; /* 添加这行以将文本右对齐 */
+}
+
+.content {
+    color: #222;
+    font-size: 16px; /* 调整字体大小 */
+    line-height: 1.6;
+    margin-top: 10px;
+    border: 1px solid #ddd; /* 添加边框 */
+    padding: 10px; /* 添加内边距，使内容离边框有一些距离 */
+    border-radius: 5px; /* 圆角边框 */
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+/* 其他样式... */
